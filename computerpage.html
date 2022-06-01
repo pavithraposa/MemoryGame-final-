@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function passValues(){
+            let playername=document.getElementById("player").value;
+            localStorage.setItem("textvalue",playername);
+            return false
+        }
+    </script>
+</head>
+<body>
+    <main class="container">
+        <section>
+            <div class="Menu">
+                <h1>Play with computer</h1>
+                <br>
+
+                <p class="heading1">Player</p>
+                <input  id="player" placeholder="Write your name">
+                <p class="heading2">Choose the level</p>
+                <form action="easygame.html">
+                    <button type="submit" class="easybtn" id="start" onclick="passValues();">Easy</button>
+                </form>
+                <form action="mediumgame.html">
+                    <button type="submit" class="easybtn" id="start" onclick="passValues();">Medium</button>
+                </form>
+                <form action="difficultgame.html">
+                    <button type="submit" class="easybtn" id="start" onclick="passValues();">Difficult</button>
+                </form> 
+            </div>
+        </section>
+    </main>
+</body>
+</html>

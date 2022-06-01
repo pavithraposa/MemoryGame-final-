@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gamefortwo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="containerplayerboard">
+        <section>
+            <div class="gameboard">
+                <h3 id="playername"></h3>
+                <div class="imagesboard">
+                    <div class="images" character="Simon"><img src="alvin-image1.png"></div>
+                    <div class="images" character="Alvin"><img src="alvin-image2.png"></div>
+                    <div class="images" character="Chipmunks"><img src="alvin-image3.jpg"></div>
+                    <div class="images" character="Theo-adore"><img src="alvin-image4.jpg"></div>
+                    <div class="images" character="Simon and Theo-adore"><img src="alvin-image5.jpg"></div>
+                    <div class="images" character="Alvin The Hero"><img src="alvin-image6.png"></div>
+                    <div class="images" character="Chipmunks"><img src="alvin-image7.jpg"></div>
+                    <div class="images" character="Chipettes"><img src="alvin-image8.jpg"></div>
+                    <div class="images" character="Chipmunks-RoadTrip"><img src="alvin-image9.webp"></div>
+                    <div class="images" character="Chipmunks-Driving"><img src="alvin-image10.webp"></div>
+                    <div class="images" character="Chipmunks-School"><img src="alvin-image11.webp"></div>
+                    <div class="images" character="Simon-The-Hero"><img src="alvin-image12.jpg"></div>
+                    <div class="images" character="Simon"><img src="alvin-image1.png"></div>
+                    <div class="images" character="Alvin"><img src="alvin-image2.png"></div>
+                    <div class="images" character="Chipmunks"><img src="alvin-image3.jpg"></div>
+                    <div class="images" character="Theo-adore"><img src="alvin-image4.jpg"></div>
+                    <div class="images" character="Simon and Theo-adore"><img src="alvin-image5.jpg"></div>
+                    <div class="images" character="Alvin The Hero"><img src="alvin-image6.png"></div>
+                    <div class="images" character="Chipmunks"><img src="alvin-image7.jpg"></div>
+                    <div class="images" character="Chipettes"><img src="alvin-image8.jpg"></div>
+                    <div class="images" character="Chipmunks-RoadTrip"><img src="alvin-image9.webp"></div>
+                    <div class="images" character="Chipmunks-Driving"><img src="alvin-image10.webp"></div>
+                    <div class="images" character="Chipmunks-School"><img src="alvin-image11.webp"></div>
+                    <div class="images" character="Simon-The-Hero"><img src="alvin-image12.jpg"></div>
+
+                </div>   
+            </div>
+            <div class="scoreboard">
+                <br>
+                <h3> 
+                    <span id="playerscore1"></span>
+                    <span id="score1"></span>
+                </h3>
+                <h3> 
+                    <span id="playerscore2"></span>
+                    <span id="score2"></span>
+                </h3>
+                <div class="history">
+                    <br>
+                    <h3>History</h3>
+                    <hr>
+                    <div class="historyDisplay"></div>
+                </div>
+                <button class="resetbtn">Reset Game</button>
+                <div class="box">
+                    <a href="#divOne"  class="exitbtn" >Exit game</a>
+                </div>
+            </div>
+            <div class="overlay" id="divOne">
+                <div class="containerForExit">
+                    <section>
+                        <div class="Menu">
+                            <h1>Do you want to exit the game?</h1>
+                            
+                            <button class="playerbtn"  onclick="window.location.href = 'homepage.html';">Yes</button>
+                            <button class="computerbtn" onclick="window.location.href = 'playerboard.html';">No</button>
+                        </div>   
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="app3.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>easylevel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="containerplayerboard">
+        <section>
+            <div class="gameboard">
+                <h1 id="playerdisplay"></h1>
+                <div class="imagesboardeasylevel">
+                    <div class="images" character="alvin-image1"><img src="alvin-image1.png"></div>
+                    <div class="images" character="alvin-image2"><img src="alvin-image2.png"></div>
+                    <div class="images" character="alvin-image3"><img src="alvin-image3.jpg"></div>
+                    <div class="images" character="alvin-image1"><img src="alvin-image1.png"></div>
+                    <div class="images" character="alvin-image2"><img src="alvin-image2.png"></div>
+                    <div class="images" character="alvin-image3"><img src="alvin-image3.jpg"></div>
+                </div> 
+            </div>
+            <div class="scoreboard">
+                <h3> 
+                    <span id="playerscore1"></span>
+                    <span id="score1"></span>
+                </h3> 
+                <div class="history1">
+                    <br>
+                    <h3>History</h3>
+                    <hr>
+                    <div class="historyDisplay"></div>
+                </div>
+                <button class="resetbtn">Reset Game</button>
+                <div class="box">
+                    <a href="#divOne"  class="exitbtn" >Exit game</a>
+                </div>
+                <div class="overlay" id="divOne">
+                    <div class="containerForExit">
+                        <section>
+                          
+                            <div class="Menu">
+                                <h1>Do you want to exit the game?</h1>
+                                
+                                <button class="playerbtn"  onclick="window.location.href = 'homepage.html';">Yes</button>
+                                <button class="computerbtn" onclick="window.location.href = 'easygame.html';">No</button>
+                            </div>
+                            
+                        </section>
+                    </div>
+                </div>
+            </div> 
+        </section>
+    </main>
+    <script src="app2.js"></script> 
+</body>
+</html>

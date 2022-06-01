@@ -1,0 +1,447 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;/* If you set box-sizing: border-box; on an element, padding and border are included in the width and height.*/
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-style: italic;
+}
+
+body
+{
+    display: flex;/*A flex container expands items to fill available free space or shrinks them to prevent overflow*/
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('./nljdXo.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navigator
+{
+    overflow: hidden;
+    position: relative;
+    width: 200%;
+    max-width: 750px;
+    min-height: 10px;
+    padding: 15px 25px;  
+    margin-top: -800px;
+    margin-left: -500px;
+    text-align: start;
+    font-style: italic;
+}
+
+.navigator a
+{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.navigator a:hover 
+{ 
+    color: black;
+}
+
+.container
+{
+    position: relative;
+    align-items: center;
+    width: 120%;
+    max-width: 500px;
+    min-height: 500px;
+    background-color: hsla(41, 89%, 51%, 0.582);   
+    margin: 50px;
+    text-align: center; 
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;   
+}
+
+h1
+{
+    font-size: 30px;
+    font-style: italic;
+}
+
+.playerbtn
+{
+    height:50px;
+    width:450px;
+    margin-top: 100px;  
+}
+
+.computerbtn
+{
+    height:50px;
+    width:450px;
+    margin-top: 70px;
+}
+
+/*playersdetails*/
+.heading1
+{
+    align-items: center;
+    float:left;
+    margin-top: 20px;
+}
+
+.heading2
+{
+    float:left;
+    margin-top: 20px;
+}
+
+#player1{
+    height:50px;
+    width:450px;
+    margin-top: 20px;
+    margin-left: -10px;
+}
+
+#player2
+{
+    height:50px;
+    width:450px;
+    margin-left: -10px;
+    margin-top: 20px;
+}
+
+#player
+{
+    height:50px;
+    width:450px;
+    margin-left: -20px;
+    margin-top: 50px;
+}
+
+#start
+{
+    position: relative;
+    align-items: center;
+    background-color:rgb(230, 209, 25);
+    height:50px;
+    width:400px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left:0px;
+    font-size: 25px;
+    font-weight:lighter;  
+}
+
+/*computerpage*/
+.player
+{
+    height:50px;
+    width:450px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.easybtn
+{
+    background-color: rgba(43, 144, 226, 0.829);
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    height:50px;
+    width:350px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.mediumbtn
+{
+    background-color: rgba(43, 144, 226, 0.829);
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    height:50px;
+    width:350px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.difficultbtn
+{
+    background-color: rgba(43, 144, 226, 0.829);
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    height:50px;
+    width:350px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+/*playerboard*/
+.containerplayerboard
+{
+    position: relative;
+    align-items: center;   
+}
+
+.gameboard
+{
+    background-color: rgba(233, 62, 62, 0.404);
+    box-shadow: 0 35px 55px rgba(0,0,0,0.4);
+    margin-top: 5px;
+    height:900px;
+    width:1250px;
+    position: relative;
+    margin-left: 10px;
+    align-items: center;
+}
+
+#playername
+{
+    text-align: center;
+}
+
+#playerdisplay
+{
+    text-align: center;
+}
+
+.display{
+    align-items: center;
+    margin-left: 12px;
+}
+
+.scoreboard
+{
+    background-color: rgba(224, 203, 8, 0.582);
+    height: 900px;
+    width:500px;
+    position: relative;
+    margin-top:-910px;
+    margin-left: 1350px;
+    text-align: center;
+    align-items: center;
+}
+
+.history
+{
+    width:400px;
+    height:450px;
+    margin-left: 45px;
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+.history1
+{
+    width:400px;
+    height:450px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+.resetbtn
+{
+    height:50px;
+    width:350px;
+    margin-top: 30px;
+    background-color: #fff;
+}
+ 
+.exitbtn
+{
+    height:50px;
+    width:350px;
+    margin-top: 30px;
+}
+
+.imagesboard
+{
+    padding: 50px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr  ; 
+    max-width: 30em;
+    margin-left: 30px;
+}
+
+.images
+{
+    position: relative;
+    float:center;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-color:#fff;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: 0.3s all ease; 
+}
+
+.images:hover
+{
+    transform: scale(1.03);  
+}
+
+.images.clicked
+{
+    background-color: orange;
+} 
+
+.images.checked
+{
+    background-color:maroon;
+} 
+
+.images.clicked img,
+.images.checked img
+{
+    opacity: 1;
+}
+
+.images.change
+{
+    background-color: rgb(241,9,95);
+    animation:change 0.5s;   
+}
+
+.images.remove
+{
+    background-color: transparent;
+}
+
+@keyframes change 
+{  
+    0%{
+        transform: translate(1px,1px) rotate(0deg);
+    }
+    30%{
+        transform: translate(3px,2px) rotate(0deg);
+    }
+    50% {
+        transform: translate(-1px,2px) rotate(-1deg);
+    }
+    70%{
+        transform: translate(3px,1px) rotate(-1deg);
+    }
+    100% {
+        transform: translate(1px,-2px) rotate(-1deg);
+    }
+      
+}
+
+.images img
+{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s all ease;  
+    opacity: 0;
+    transition: 0.3s all ease;
+}
+
+/* easygame.html*/
+.imagesboardeasylevel
+{
+    align-items: center;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr   ;
+    max-width: 30em;
+    margin-left: 280px;
+} 
+
+/*mediumgame.html*/
+.imagesboardmediumlevel
+{
+    align-items: center;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    max-width: 30em;
+    margin-left: 280px; 
+}
+
+/*for diificultgame exit button*/
+.box
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.exitbtn
+{
+    font-size: 1em;
+    padding: 15px 125px;
+    color:rgba(12, 11, 11, 0.877);
+    text-decoration: none;
+    cursor:pointer;
+    transition: all 0.3s ease-out;
+    background:#fff ; 
+}
+
+.overlay
+{
+    position: fixed;
+    align-items: center;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+.nobtn
+{
+    position: fixed;
+    align-items: center;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 1;
+}
+
+.nobtn:target
+{
+    visibility: none;
+    opacity: 0;
+}
+
+.containerForExit
+{
+    position: relative;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    min-height: 400px;
+    background-color: hsla(41, 89%, 51%, 0.582);
+    margin: 50px;
+    text-align: center;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-left: 750px;
+    margin-top: 250px;
+}
+    

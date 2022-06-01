@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mediumgame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="containerplayerboard">
+        <section>
+            <div class="gameboard">
+                <h1 id="playerdisplay"></h1>
+                <div class="imagesboardmediumlevel">
+                    <div class="images" character="alvin-image11"><img src="alvin-image11.webp"></div>
+                    <div class="images" character="alvin-image10"><img src="alvin-image10.webp"></div>
+                    <div class="images" character="alvin-image7"><img src="alvin-image7.jpg"></div>
+                    <div class="images" character="alvin-image12"><img src="alvin-image12.jpg"></div>
+                    <div class="images" character="alvin-image8"><img src="alvin-image8.jpg"></div>
+                    <div class="images" character="alvin-image9"><img src="alvin-image9.webp"></div>
+                    <div class="images" character="alvin-image7"><img src="alvin-image7.jpg"></div>
+                    <div class="images" character="alvin-image8"><img src="alvin-image8.jpg"></div>
+                    <div class="images" character="alvin-image9"><img src="alvin-image9.webp"></div>
+                    <div class="images" character="alvin-image10"><img src="alvin-image10.webp"></div>
+                    <div class="images" character="alvin-image11"><img src="alvin-image11.webp"></div>
+                    <div class="images" character="alvin-image12"><img src="alvin-image12.jpg"></div>
+               
+                </div>
+                
+            </div>
+            <div class="scoreboard">
+                <h3> 
+                    <span id="playerscore1"></span>
+                    <span id="score1"></span>
+                </h3> 
+                <div class="history1">
+                    <br>
+                    <h3>History</h3>
+                    <hr>
+                    <div class="historyDisplay"></div>
+                </div>
+                <button class="resetbtn" class="box">Reset Game</button>
+                <div class="box">
+                    <a href="#divOne"  class="exitbtn" >Exit game</a>
+                </div>
+                <div class="overlay" id="divOne">
+                    <div class="containerForExit">
+                        <section>
+                            <div class="Menu">
+                                <h1>Do you want to exit the game?</h1>
+                                <button class="playerbtn"  onclick="window.location.href = 'homepage.html';">Yes</button>
+                                <button class="computerbtn" onclick="window.location.href = 'mediumgame.html';">No</button>
+                            </div>  
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>>
+    <script src="app2.js"></script>
+</body>
+</html>

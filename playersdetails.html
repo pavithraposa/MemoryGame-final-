@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function passValues(){
+            let player1name=document.getElementById("player1").value;
+            localStorage.setItem("textvalue",player1name);
+            let player2name=document.getElementById("player2").value;
+            localStorage.setItem("textvalue1",player2name);
+            return false
+        }
+    </script>
+</head>
+<body>
+    <main class="container">
+        <section>
+            <div class="Menu">
+                <h1>Play with others</h1>
+                <form action="playerboard.html">
+                    <p class="heading1">Player1</p>
+                    <input id="player1" type="text" placeholder="PlayerName1">
+                    <p class="heading2">Player2</p>
+                    <input id="player2" type="text" placeholder="PlayerName1">
+                    <input type="submit" id="start" onclick="passValues();" />
+                </form>
+            </div>  
+        </section>
+    </main>
+</body>
+</html>
